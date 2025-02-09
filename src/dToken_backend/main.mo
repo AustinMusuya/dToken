@@ -1,5 +1,8 @@
+import Debug "mo:base/Debug";
+
 actor {
-  public query func greet(name : Text) : async Text {
-    return "Hello, " # name # "!";
+  public func hello(name: Text){
+    let greeting = "Hello, " # name # "!";
+    Debug.print(greeting);
   };
 };
