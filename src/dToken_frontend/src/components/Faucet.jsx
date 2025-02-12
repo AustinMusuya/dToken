@@ -1,10 +1,7 @@
 import React from "react";
 
 function Faucet() {
-
-  async function handleClick(event) {
-
-  }
+  async function handleClick(event) {}
 
   return (
     <div className="blue window">
@@ -14,7 +11,11 @@ function Faucet() {
         </span>
         Faucet
       </h2>
-      <label>Get your free DAustin tokens here! Claim 10,000 DAUS coins to your account.</label>
+
+      <label>
+        Get your free DAustin tokens here! Claim 10,000 DAUS coins to your
+        account.
+      </label>
       <p className="trade-buttons">
         <button id="btn-payout" onClick={handleClick}>
           Gimme gimme
